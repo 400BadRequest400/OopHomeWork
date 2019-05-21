@@ -1,6 +1,6 @@
 package oopPackage;
 
-public class ConcreteCall implements InterfaceCall{
+public class ConcreteCall implements oopPackage.InterfaceCall {
 
 	//implements -- interface
 	//extends -- abstract 
@@ -19,15 +19,14 @@ public class ConcreteCall implements InterfaceCall{
 	}
 
 	@Override
-	public void hold() {
+	public void hold(){
 		System.out.println("hold the call");
+
+		System.out.println("hold the call");
+
+	System.out.println("hold the call");
 	}
 	
-	
-	@Override
-	public void hold() {
-		System.out.println("hold the call");
-	}
 	
 
 	
